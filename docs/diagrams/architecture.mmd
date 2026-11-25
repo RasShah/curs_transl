@@ -1,0 +1,8 @@
+flowchart TD
+  input[Файл tbl] --> lexer[Лексер и токены]
+  lexer --> parser[Парсер и AST]
+  parser --> fill[Раскрытие fill]
+  fill --> semantic[Граф зависимости типы и порядок]
+  semantic --> codegen[Генерация Python]
+  codegen --> compute[Вычисление всех ячеек]
+  compute --> csv[Экспорт CSV]

@@ -1,0 +1,282 @@
+[
+  {
+    "file": "tests/invalid/undefined.tbl",
+    "error": "E_UNDEFINED"
+  },
+  {
+    "file": "tests/invalid/duplicate.tbl",
+    "error": "E_DUPLICATE"
+  },
+  {
+    "file": "tests/invalid/fill_overlap.tbl",
+    "error": "E_DUPLICATE"
+  },
+  {
+    "file": "tests/invalid/self_cycle.tbl",
+    "error": "E_CYCLE"
+  },
+  {
+    "file": "tests/invalid/cycle.tbl",
+    "error": "E_CYCLE"
+  },
+  {
+    "file": "tests/invalid/range_cycle.tbl",
+    "error": "E_CYCLE"
+  },
+  {
+    "file": "tests/invalid/range_hole.tbl",
+    "error": "E_UNDEFINED"
+  },
+  {
+    "file": "tests/invalid/string_arithmetic.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/boolean_arithmetic.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/mixed_comparison.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/boolean_order.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/range_assignment.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/range_expression.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/mixed_range.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/unknown_function.tbl",
+    "error": "E_FUNCTION"
+  },
+  {
+    "file": "tests/invalid/aggregate_empty.tbl",
+    "error": "E_ARITY"
+  },
+  {
+    "file": "tests/invalid/aggregate_boolean.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/if_arguments.tbl",
+    "error": "E_ARITY"
+  },
+  {
+    "file": "tests/invalid/if_condition.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/if_branches.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/if_ranges.tbl",
+    "error": "E_TYPE"
+  },
+  {
+    "file": "tests/invalid/reverse_range.tbl",
+    "error": "E_RANGE"
+  },
+  {
+    "file": "tests/invalid/absolute_target.tbl",
+    "error": "E_TARGET"
+  },
+  {
+    "file": "tests/invalid/absolute_fill_target.tbl",
+    "error": "E_TARGET"
+  },
+  {
+    "file": "tests/invalid/missing_semicolon.tbl",
+    "error": "E_SYNTAX"
+  },
+  {
+    "file": "tests/invalid/missing_parenthesis.tbl",
+    "error": "E_SYNTAX"
+  },
+  {
+    "file": "tests/invalid/trailing_comma.tbl",
+    "error": "E_SYNTAX"
+  },
+  {
+    "file": "tests/invalid/chained_comparison.tbl",
+    "error": "E_SYNTAX"
+  },
+  {
+    "file": "tests/invalid/unclosed_comment.tbl",
+    "error": "E_COMMENT"
+  },
+  {
+    "file": "tests/invalid/unclosed_string.tbl",
+    "error": "E_STRING"
+  },
+  {
+    "file": "tests/invalid/unknown_escape.tbl",
+    "error": "E_ESCAPE"
+  },
+  {
+    "file": "tests/invalid/invalid_character.tbl",
+    "error": "E_CHARACTER"
+  },
+  {
+    "file": "tests/invalid/invalid_cell.tbl",
+    "error": "E_CELL"
+  },
+  {
+    "file": "tests/invalid/leading_zero_cell.tbl",
+    "error": "E_CELL"
+  },
+  {
+    "file": "tests/invalid/invalid_exponent.tbl",
+    "error": "E_NUMBER"
+  },
+  {
+    "file": "tests/invalid/float_overflow.tbl",
+    "error": "E_NUMBER"
+  },
+  {
+    "file": "tests/invalid/float_underflow.tbl",
+    "error": "E_NUMBER"
+  },
+  {
+    "file": "tests/invalid/hex_number.tbl",
+    "error": "E_NUMBER"
+  },
+  {
+    "file": "tests/invalid/duplicate_export.tbl",
+    "error": "E_EXPORT"
+  },
+  {
+    "file": "tests/invalid/empty_export.tbl",
+    "error": "E_EXPORT"
+  },
+  {
+    "file": "tests/invalid/undefined_unused_branch.tbl",
+    "error": "E_UNDEFINED"
+  },
+  {
+    "file": "tests/invalid/shift_outside_table.tbl",
+    "error": "E_ADDRESS"
+  },
+  {
+    "file": "tests/invalid/missing_export.tbl",
+    "error": "E_EXPORT"
+  },
+  {
+    "file": "tests/invalid/empty_table.tbl",
+    "error": "E_EMPTY"
+  },
+  {
+    "file": "examples/basic.tbl",
+    "csv": [
+      [
+        "120",
+        "3",
+        "360"
+      ],
+      [
+        "80",
+        "2",
+        "160"
+      ],
+      [
+        "",
+        "",
+        "520"
+      ]
+    ]
+  },
+  {
+    "file": "examples/forward.tbl",
+    "csv": [
+      [
+        "120",
+        "3",
+        "360"
+      ],
+      [
+        "80",
+        "2",
+        "160"
+      ],
+      [
+        "",
+        "",
+        "520"
+      ]
+    ]
+  },
+  {
+    "file": "examples/features.tbl",
+    "csv": [
+      [
+        "2",
+        "Цена, руб.",
+        "true",
+        "9",
+        "-1",
+        "да",
+        "Итог: готово"
+      ],
+      [
+        "4",
+        "Строка с \"кавычками\"",
+        "true",
+        "3",
+        "8",
+        "12",
+        "148.5"
+      ]
+    ]
+  },
+  {
+    "file": "examples/absolute.tbl",
+    "csv": [
+      [
+        "2",
+        "200",
+        "",
+        "100"
+      ],
+      [
+        "5",
+        "500",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "1000",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "8",
+        "404"
+      ],
+      [
+        "",
+        "",
+        "14",
+        "707"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+A1=AVG();
+export "result.csv";

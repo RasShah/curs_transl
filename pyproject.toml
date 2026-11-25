@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tablescript-translator"
+version = "1.0.0"
+description = "A statically checked spreadsheet language to Python compiler"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+translator = "spreadsheet_lang.cli:main"
+
+[tool.setuptools]
+packages = ["spreadsheet_lang"]
+
+[tool.setuptools.package-data]
+spreadsheet_lang = ["runtime.py"]

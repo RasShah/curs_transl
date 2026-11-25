@@ -1,0 +1,2 @@
+A1=MIN(true);
+export "result.csv";
